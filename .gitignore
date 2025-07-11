@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# Memory/chat history
+memory.json
+
+# Python cache and virtualenv
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
