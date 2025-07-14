@@ -1,36 +1,36 @@
-# 💬 CLI Chatbot with Gemini Pro (Gen AI Chatbot)
+#  CLI Chatbot with Gemini Pro (Gen AI Chatbot)
 
 A simple yet powerful command-line chatbot powered by Google’s Gemini Pro API. It supports contextual memory stored in JSON, allows loading external files as context, and is ideal for testing LLMs from the terminal.
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
-🧠 LLM: Gemini 1.5 Flash (models/gemini-1.5-flash-latest)
+ LLM: Gemini 1.5 Flash (models/gemini-1.5-flash-latest)
 
-💾 Memory: JSON-based long-term memory
+ Memory: JSON-based long-term memory
 
-📂 File Context: Supports .txt, .pdf, .docx
+ File Context: Supports .txt, .pdf, .docx
 
-🔐 Secrets: Uses .env to securely store your API key
+ Secrets: Uses .env to securely store your API key
 
-📝 Language: Python 3.10+
-
----
-
-## 🚀 Features
-
-💬 Chat with Gemini directly in the terminal
-
-🧠 Maintains memory across sessions (memory.json)
-
-📁 Load and chat with documents using upload [file_path]
-
-⚡ Fast & lightweight with Gemini Flash model
+ Language: Python 3.10+
 
 ---
 
-🔐 API Key Setup
+##  Features
+
+ Chat with Gemini directly in the terminal
+
+ Maintains memory across sessions (memory.json)
+
+ Load and chat with documents using upload [file_path]
+
+ Fast & lightweight with Gemini Flash model
+
+---
+
+ API Key Setup
 Create a .env file in the project root:
 
 ```env
@@ -39,7 +39,7 @@ GOOGLE_API_KEY=your_gemini_api_key_here
 
 ---
 
-🧠 Memory Example (memory.json)
+ Memory Example (memory.json)
 ```json
 [
   {
@@ -60,7 +60,7 @@ All chat history is automatically saved and loaded across sessions.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Install dependencies
 ```bash
@@ -77,11 +77,11 @@ python main.py
 
 ---
 
-## 📂 Uploading Files (Document Context)
+##  Uploading Files (Document Context)
 
 You can load a .txt, .pdf, or .docx file into the chatbot to give it extra context to answer your questions more accurately.
 
-### 📥 How to Upload a File
+###  How to Upload a File
 
 Type the following in the chatbot interface:
 
